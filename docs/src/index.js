@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => {
+function App() {
     return (
-        <div>
-            <h1>Welcome to the Superset Platform 🎯</h1>
-            <p>Your AI-powered dashboard solution is coming soon!</p>
+        <div style={{ textAlign: "center", padding: "50px" }}>
+            <h1>🚀 Welcome to the Superset Platform!</h1>
+            <p>This is your React app running live on GitHub Pages.</p>
         </div>
     );
-};
+}
 
 ReactDOM.render(<App />, document.getElementById("root"));
